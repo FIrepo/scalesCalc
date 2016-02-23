@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Music Theory for the Programmer</title>
+</head>
+<body>
+<h1>Music Scale/Chord Quick Reference</h1>
+
+<div id="instruct">
+
+</div> 
+
+<label> Root Tone Select: 
+	<input id="scaleInput" type="text" maxlength="2">
+</label>
+<label>Scale Mode Select: 
+<select id="selectMode">
+  <option value="1" selected="selected">ionian</option>
+  <option value="2">dorian</option>
+  <option value="3">phrygian</option>
+  <option value="4">lydian</option>
+  <option value="5">mixolydian</option>
+  <option value="6">aeolian</option>
+  <option value="7">locrian</option>
+  <option value="8">Maj Chord</option>
+  <option value="9">min Chord</option>
+  <option value="10">sus2 Chord</option>
+  <option value="11">sus4 Chord</option>
+  <option value="12">Maj 7th Chord</option>
+  <option value="13">min 7th Chord</option>
+  <option value="14">7th Chord</option>
+
+</select>
+
+</label>
+
+
+
+<h2><div id="display"></div></h2>
+<div id="displayScale"></div>
+
+<script src="scales.js"></script>
+</body>
+</html>
